@@ -23,7 +23,7 @@ function App() {
       {/* Barra de Navegación con React Router */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">PyLightControl</NavLink>
+          <NavLink className="navbar-brand brand-color" to="/">PyLightControl</NavLink>
           <button
             className="navbar-toggler" 
             type="button"
