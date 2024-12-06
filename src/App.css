@@ -1,0 +1,18 @@
+/* Estilo para la marca (PyLightControl) */
+.brand-color {
+    color: #FFEB3B;  /* Amarillo brillante que simula la bombilla encendida */
+    font-weight: bold; /* Hacer el texto un poco más grueso */
+    text-shadow: 1px 1px 5px rgba(255, 235, 59, 0.8); /* Agregar un pequeño brillo al texto */
+    font-family: 'Arial', sans-serif; /* Fuente más moderna para el texto */
+  }
+  
+  /* Mejorar el estilo de los enlaces y texto en el menú */
+  .navbar-nav .nav-link {
+    color: #fff; /* Blanco para los enlaces del menú */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #FFEB3B; /* Hacer que el color amarillo también se aplique al pasar el ratón */
+    text-decoration: underline; /* Subrayar al pasar el ratón para mayor claridad */
+  }
+  
