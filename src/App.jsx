@@ -23,7 +23,7 @@ function App() {
       {/* Barra de Navegación con React Router */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <NavLink className="navbar-brand brand-color l" to="/">PyLightControl</NavLink>
+          <NavLink className="navbar-brand" to="/">PyLightControl</NavLink>
           <button
             className="navbar-toggler" 
             type="button"
@@ -38,7 +38,7 @@ function App() {
 
           {/* Menú desplegable con Bootstrap */}
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav ms-auto"> {/* Alineamos los elementos a la derecha */}
               <li className="nav-item">
                 <NavLink
                   className="nav-link"
@@ -95,3 +95,4 @@ function App() {
 }
 
 export default App;
+
